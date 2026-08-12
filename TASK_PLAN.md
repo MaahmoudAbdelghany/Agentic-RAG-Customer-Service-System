@@ -14,7 +14,7 @@
 - [x] Create `data/knowledge_base/return_policy.md`
 - [x] Create `data/knowledge_base/shipping_policy.md`
 - [x] Create `data/knowledge_base/warranty_policy.md`
-- [ ] Create `data/knowledge_base/faq.md`
+- [x] Create `data/knowledge_base/faq.md`
 - [ ] Create `data/knowledge_base/product_catalog.md`
 - [ ] Create `data/mock_orders.json`
 

@@ -11,7 +11,7 @@
 - [x] Create `src/config/settings.py` (Pydantic Settings)
 
 ## Phase 3: Demo Knowledge Base (Synthetic Data)
-- [ ] Create `data/knowledge_base/return_policy.md`
+- [x] Create `data/knowledge_base/return_policy.md`
 - [ ] Create `data/knowledge_base/shipping_policy.md`
 - [ ] Create `data/knowledge_base/warranty_policy.md`
 - [ ] Create `data/knowledge_base/faq.md`

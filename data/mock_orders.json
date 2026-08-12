@@ -1,0 +1,167 @@
+[
+  {
+    "order_id": "ORD-001",
+    "customer_email": "ahmed.ali@example.com",
+    "status": "delivered",
+    "tracking_number": "TRK-123456789",
+    "items": ["TS-MOB-PROX"],
+    "total_amount": 899.00,
+    "currency": "USD",
+    "order_date": "2024-05-10T14:30:00Z",
+    "estimated_delivery": "2024-05-15T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-002",
+    "customer_email": "sarah.smith@example.com",
+    "status": "processing",
+    "tracking_number": null,
+    "items": ["TS-AUD-BUDS", "TS-WEAR-W3"],
+    "total_amount": 348.00,
+    "currency": "USD",
+    "order_date": "2024-05-20T09:15:00Z",
+    "estimated_delivery": "2024-05-24T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-003",
+    "customer_email": "mohamed.khalil@example.com",
+    "status": "shipped",
+    "tracking_number": "TRK-987654321",
+    "items": ["TS-MOB-LITE"],
+    "total_amount": 499.00,
+    "currency": "USD",
+    "order_date": "2024-05-18T11:45:00Z",
+    "estimated_delivery": "2024-05-22T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-004",
+    "customer_email": "emily.jones@example.com",
+    "status": "returned",
+    "tracking_number": "TRK-555555555",
+    "items": ["TS-WEAR-W3"],
+    "total_amount": 199.00,
+    "currency": "USD",
+    "order_date": "2024-04-15T16:20:00Z",
+    "estimated_delivery": "2024-04-20T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-005",
+    "customer_email": "omar.hassan@example.com",
+    "status": "delivered",
+    "tracking_number": "TRK-111222333",
+    "items": ["TS-MOB-PROX", "TS-AUD-BUDS"],
+    "total_amount": 1048.00,
+    "currency": "USD",
+    "order_date": "2024-05-01T10:00:00Z",
+    "estimated_delivery": "2024-05-05T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-006",
+    "customer_email": "jessica.brown@example.com",
+    "status": "processing",
+    "tracking_number": null,
+    "items": ["TS-MOB-LITE"],
+    "total_amount": 499.00,
+    "currency": "USD",
+    "order_date": "2024-05-21T08:30:00Z",
+    "estimated_delivery": "2024-05-26T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-007",
+    "customer_email": "khalid.youssef@example.com",
+    "status": "shipped",
+    "tracking_number": "TRK-444555666",
+    "items": ["TS-AUD-BUDS"],
+    "total_amount": 149.00,
+    "currency": "USD",
+    "order_date": "2024-05-19T13:10:00Z",
+    "estimated_delivery": "2024-05-23T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-008",
+    "customer_email": "david.miller@example.com",
+    "status": "delivered",
+    "tracking_number": "TRK-777888999",
+    "items": ["TS-WEAR-W3"],
+    "total_amount": 199.00,
+    "currency": "USD",
+    "order_date": "2024-05-08T15:45:00Z",
+    "estimated_delivery": "2024-05-12T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-009",
+    "customer_email": "layla.mahmoud@example.com",
+    "status": "returned",
+    "tracking_number": "TRK-000111222",
+    "items": ["TS-MOB-PROX"],
+    "total_amount": 899.00,
+    "currency": "USD",
+    "order_date": "2024-04-25T11:20:00Z",
+    "estimated_delivery": "2024-04-29T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-010",
+    "customer_email": "michael.wilson@example.com",
+    "status": "processing",
+    "tracking_number": null,
+    "items": ["TS-MOB-LITE", "TS-WEAR-W3"],
+    "total_amount": 698.00,
+    "currency": "USD",
+    "order_date": "2024-05-21T17:00:00Z",
+    "estimated_delivery": "2024-05-27T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-011",
+    "customer_email": "fatima.zara@example.com",
+    "status": "shipped",
+    "tracking_number": "TRK-333222111",
+    "items": ["TS-AUD-BUDS", "TS-AUD-BUDS"],
+    "total_amount": 298.00,
+    "currency": "USD",
+    "order_date": "2024-05-17T09:45:00Z",
+    "estimated_delivery": "2024-05-21T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-012",
+    "customer_email": "robert.taylor@example.com",
+    "status": "delivered",
+    "tracking_number": "TRK-666555444",
+    "items": ["TS-MOB-PROX", "TS-WEAR-W3", "TS-AUD-BUDS"],
+    "total_amount": 1247.00,
+    "currency": "USD",
+    "order_date": "2024-05-02T12:30:00Z",
+    "estimated_delivery": "2024-05-07T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-013",
+    "customer_email": "tarek.salem@example.com",
+    "status": "processing",
+    "tracking_number": null,
+    "items": ["TS-MOB-PROX"],
+    "total_amount": 899.00,
+    "currency": "USD",
+    "order_date": "2024-05-21T19:15:00Z",
+    "estimated_delivery": "2024-05-25T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-014",
+    "customer_email": "amanda.white@example.com",
+    "status": "shipped",
+    "tracking_number": "TRK-999888777",
+    "items": ["TS-MOB-LITE"],
+    "total_amount": 499.00,
+    "currency": "USD",
+    "order_date": "2024-05-16T14:50:00Z",
+    "estimated_delivery": "2024-05-20T18:00:00Z"
+  },
+  {
+    "order_id": "ORD-015",
+    "customer_email": "youssef.ibrahim@example.com",
+    "status": "delivered",
+    "tracking_number": "TRK-123123123",
+    "items": ["TS-WEAR-W3", "TS-AUD-BUDS"],
+    "total_amount": 348.00,
+    "currency": "USD",
+    "order_date": "2024-05-12T10:20:00Z",
+    "estimated_delivery": "2024-05-16T18:00:00Z"
+  }
+]

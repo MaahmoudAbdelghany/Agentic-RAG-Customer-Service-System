@@ -16,7 +16,7 @@
 - [x] Create `data/knowledge_base/warranty_policy.md`
 - [x] Create `data/knowledge_base/faq.md`
 - [x] Create `data/knowledge_base/product_catalog.md`
-- [ ] Create `data/mock_orders.json`
+- [x] Create `data/mock_orders.json`
 
 ## Phase 4: RAG Pipeline
 - [ ] Create `src/rag/__init__.py`

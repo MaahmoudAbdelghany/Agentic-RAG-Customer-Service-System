@@ -19,7 +19,7 @@
 - [x] Create `data/mock_orders.json`
 
 ## Phase 4: RAG Pipeline
-- [ ] Create `src/rag/__init__.py`
+- [x] Create `src/rag/__init__.py`
 - [ ] Create `src/rag/document_loader.py`
 - [ ] Create `src/rag/chunker.py`
 - [ ] Create `src/rag/embeddings.py`

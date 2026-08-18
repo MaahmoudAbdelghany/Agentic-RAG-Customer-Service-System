@@ -22,7 +22,7 @@
 - [x] Create `src/rag/__init__.py`
 - [x] Create `src/rag/document_loader.py`
 - [x] Create `src/rag/chunker.py`
-- [ ] Create `src/rag/embeddings.py`
+- [x] Create `src/rag/embeddings.py`
 - [ ] Create `src/rag/vector_store.py`
 - [ ] Create `src/rag/ingest.py`
 

@@ -7,7 +7,7 @@ used throughout the application for document ingestion and query embedding.
 import logging
 from typing import Optional
 
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 from src.config.settings import get_settings
 
@@ -25,7 +25,7 @@ def get_embedding_model() -> HuggingFaceEmbeddings:
     re-loading the model weights (~100 MB) on every embedding request.
 
     The model name is read from ``settings.EMBEDDING_MODEL`` (default:
-    ``paraphrase-multilingual-MiniLM-L12-v2``).  This particular model
+    ``paraphrase-multilingual-MiniLM-L12-v2``). This particular model
     produces 384-dimensional vectors and supports 50+ languages, making
     it ideal for the bilingual (English / Arabic) knowledge base.
 
@@ -34,7 +34,7 @@ def get_embedding_model() -> HuggingFaceEmbeddings:
 
     Raises:
         RuntimeError: If the model fails to load (e.g. network issue on
-            first download, or incompatible ``sentence-transformers`` version).
+            first download, or invalid model name).
     """
     global _embedding_model
 
@@ -59,6 +59,6 @@ def get_embedding_model() -> HuggingFaceEmbeddings:
         logger.error(f"Failed to load embedding model '{model_name}': {e}")
         raise RuntimeError(
             f"Could not load embedding model '{model_name}'. "
-            f"Ensure 'sentence-transformers' is installed and the model name is valid. "
+            f"Ensure 'sentence-transformers' and 'langchain-huggingface' are installed and the model name is valid. "
             f"Original error: {e}"
         ) from e

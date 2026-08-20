@@ -3,7 +3,7 @@ name = "agentic-rag-customer-service-system"
 version = "0.1.0"
 description = "Agentic RAG Customer Service System — Bilingual (AR/EN) RAG-based AI customer service agent"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13"
 dependencies = [
     # LLM & Agent framework
     "langchain>=0.1.0",
@@ -12,18 +12,17 @@ dependencies = [
     "langchain-groq>=0.0.1",
     "langchain-chroma>=0.1.0",
     "langgraph>=0.0.20",
-
     # Embeddings & Vector DB
+    "torch==2.5.1+cpu",
+    "numpy<2.0.0",
     "chromadb>=0.4.20",
     "sentence-transformers>=2.3.0",
-
+    "langchain-huggingface>=1.2.2",
     # Web framework
     "fastapi>=0.100.0",
     "uvicorn>=0.23.0",
-
     # UI
     "streamlit>=1.30.0",
-
     # Configuration & utilities
     "pydantic>=2.4.0",
     "pydantic-settings>=2.0.0",
@@ -36,3 +35,14 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+

@@ -39,4 +39,4 @@ Act as an expert AI Teacher. When explaining code, architectures, or completed t
 - Provide clear, memorable key takeaways for the topics covered in this lesson/step.
 
 #### 
-and finaly i want you put this 6 steps into report for me. and don't miss any step. make sure to put it into report.
+and finaly i want you put this 6 steps into report for me. and don't miss any step. make sure to put it into report i don't want you the report md file.

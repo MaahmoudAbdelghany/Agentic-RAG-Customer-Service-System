@@ -23,7 +23,7 @@
 - [x] Create `src/rag/document_loader.py`
 - [x] Create `src/rag/chunker.py`
 - [x] Create `src/rag/embeddings.py`
-- [ ] Create `src/rag/vector_store.py`
+- [x] Create `src/rag/vector_store.py`
 - [ ] Create `src/rag/ingest.py`
 
 ## Phase 5: Agent Tools
